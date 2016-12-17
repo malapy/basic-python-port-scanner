@@ -1,3 +1,14 @@
+# Simple Python port scanner
+#
+# coded by : malapy
+#	     m-graham@gmx.com
+#  
+# usage - python portscan.py 192.168.1.x 21,25,80
+# 	  python portscan.py 192.168.1.x 1-9000
+#         python portscan.py 192.168.1.1-10 21,25,80
+#
+#
+
 import socket
 import sys
 
